@@ -1,0 +1,52 @@
+Zoo Animal Program - Algorithm
+
+1. The Base Class: Animal
+   - Every animal has a `name` and `species`
+   - It has two functions:
+     - `make_sound()`: A placeholder for animal sounds
+     - `info()`: Prints out basic details about the animal
+
+2. Making Specific Animals
+   - Bear:
+     - Has a `fur_color` (like brown, white, etc.)
+     - `make_sound()`: Roars like a bear
+     - `info()`: Also includes fur color
+   
+   - Elephant:
+     - Has a `weight` (in kg)
+     - `make_sound()`: Trumpets like an elephant
+     - `info()`: Also includes weight
+   
+   - Penguin:
+     - Has a `height` (in feet)
+     - `make_sound()`: Squawks like a penguin
+     - `info()`: Also includes height
+
+3. Main Program & Menu
+   - We store all animals in a list called `zoo`
+   - Main Menu:
+     - 1) Add animals
+     - 2) Show all animals
+     - 3) Show specific types
+     - 4) Exit
+   
+   - Adding Animals:
+     - User picks an animal type and enters details
+     - The new animal gets added to `zoo`
+   
+   - Show All Animals:
+     - Loops through `zoo` and prints out `info()` for each one
+   
+   - Show Specific Animals:
+     - User selects Bear, Elephant, or Penguin
+     - Prints only those animals
+   
+   - Exit:
+     - Ends the program
+
+
+
+
+
+
+

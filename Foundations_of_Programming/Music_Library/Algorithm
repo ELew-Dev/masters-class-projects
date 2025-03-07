@@ -1,0 +1,37 @@
+Initialize the Program
+
+Create a MusicOrganizer class to manage users and their collections.
+Create a User class that stores a dictionary of songs (title → artist).
+Main Menu
+
+Display menu options based on whether a user is selected.
+Prompt the user for input.
+User Management
+
+If "Add User" is selected
+Prompt for a username.
+Create a new User object if the name does not exist.
+Set the new user as the current user.
+If "Change User" is selected:
+Display available users.
+Prompt for selection.
+Switch the active user.
+Song Management
+
+If "Add a Song" is selected:
+Prompt for song title and artist.
+Add the song to the current user’s collection.
+If "Retrieve Song Details" is selected:
+Prompt for song title.
+Display the corresponding artist.
+If "Update Song Details" is selected:
+Prompt for song title and new artist.
+Update the artist in the collection.
+If "Delete a Song" is selected:
+Prompt for song title.
+Remove the song from the collection.
+If "Display All Songs" is selected:
+Show all songs in the current user’s collection.
+Exit the Program
+
+If "Exit" is selected, terminate the program.

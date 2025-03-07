@@ -1,0 +1,32 @@
+Mythical Creature Family Tree - Algorithm
+
+Set Up the Tree
+- Start by creating a class CreatureNode to represent each mythical creature.
+- Each node stores a creature's name and has up to two children (left and right).
+
+Building the Family Tree
+- The tree starts empty.
+- The user can add a root creature if one doesn't exist.
+- Additional creatures can be added as left or right children of existing ones.
+
+Adding Creatures
+- The user picks a creature that already exists in the tree.
+- They choose whether to add the new creature as a left or right child.
+- The program checks if that spot is empty—if it is, the new creature is added.
+
+Printing the Tree
+- The program displays all creatures in a tree-like format.
+- If the tree is empty, it lets the user know.
+
+Searching for a Creature’s Ancestors
+- The user inputs a creature’s name.
+- The program searches the tree for that creature.
+- If found, it prints out its ancestors in order.
+- If not found, it notifies the user.
+
+User Menu
+- The user is given a menu to:
+- Add a creature.
+- Print the whole tree.
+- Search for a creature’s ancestors.
+- The menu keeps looping until the user decides to exit.

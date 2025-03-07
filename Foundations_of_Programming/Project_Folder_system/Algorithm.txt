@@ -1,0 +1,38 @@
+Algorithm 
+
+Problem Breakdown:
+Create a `Folder` class that models a simplified file system with folders and files. The class must support:
+- Adding files to a folder.
+- Adding subfolders within a folder.
+- Navigating between folders.
+- Counting the total number of files (recursively).
+- Printing the folder structure.
+
+Approach:
+
+1. Class Design:
+   - Each `Folder` object has a `name`, a list of `files`, and a list of `subfolders`.
+   - The `subfolders` list contains `Folder` objects, enabling a tree-like structure.
+
+2. Method Implementations:
+   - `add_file(file_name)`: Appends a file name to the `files` list.
+   - `add_subfolder(folder_name)`: Creates a new `Folder` object and adds it to `subfolders` if it doesn't already exist.
+   - `select_folder(folder_name)`: Searches for a subfolder and changes the reference to it if found.
+   - `__count_files()`: Recursively counts files within the current folder and all subfolders.
+   - `__eq__(other)`: Checks if a given string matches the folder name.
+   - `__len__()`: Returns the total file count.
+   - `__str__()`: Generates an indented string representation of the folder structure.
+
+3. Menu System:
+   - A loop displays a menu and handles user input.
+   - Operations modify the current folder context.
+   - The user can navigate back to the root folder when needed.
+
+4. Edge Cases Considered:
+   - Attempting to select a non-existent folder.
+   - Handling duplicate folder names.
+   - Ensuring recursive operations work efficiently.
+
+
+
+
